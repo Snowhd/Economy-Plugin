@@ -1,0 +1,4 @@
+permissions:
+  server.admin:
+    description: alle rechte die es auf dem Server gibt
+    default: op

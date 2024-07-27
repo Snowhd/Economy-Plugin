@@ -1,0 +1,7 @@
+Host: "192.168.0.101" #komischer fehler: beim Auslesen der datei wird Host auf null gesetzt, alle anderen felder werden normal geladen, wenn man aber den wert von Host also eine IPv4 in ein anderen feld weiter, kommt auch wieder null raus
+Port: 3306
+Username: "plugin"
+Password: "test"
+Database: "economy"
+SSL: "false"
+Table: "user"

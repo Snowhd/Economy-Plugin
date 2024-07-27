@@ -1,0 +1,34 @@
+name: economy-plugin
+version: '${project.version}'
+main: org.exampls.economy_plugin.EconomyPlugin
+api-version: '1.20'
+commands:
+  money:
+    description: Setzt das Geld eines Spielers
+    usage: /<command> <add | remove | set>  <Spielername> <Betrag>
+    permissions:
+      - server.admin
+  pay:
+    description: Überweise einen Spieler Geld
+    usage: /<command> <Spielername> <Betrag>
+    aliases:
+      - Pay
+      - pay
+  togglepay:
+    description: Deaktiviere pay
+    usage: /<command>
+    aliases:
+      - togglePay
+      - TogglePay
+  viewbalance:
+    description: sehe deine balance
+    usage: /<command>
+    aliases:
+      - ViewBalance
+      - viewbalance
+      - vb
+  payall:
+    description: gib jeden spieler, der gerade Online ist , Geld
+    usage: /<command> <Betrag>
+    permissions:
+      - server.admin
